@@ -43,7 +43,6 @@ nav span{
 }
 .column.large{
   width: 630px;
-  height: 1220px;
   display: inline-flex;
   flex-flow: column wrap;
   justify-content: space-between;
@@ -93,7 +92,17 @@ color: black;
 }
 .story{
   flex-wrap: wrap;
-  width: 300px;
   display: inline-flex;
-
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.story_container{
+  flex: display-inline;
+  width: 630px;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
