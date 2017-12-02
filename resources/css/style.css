@@ -5,12 +5,11 @@
   font-weight: bold;
   color: aquamarine;
 }
-div{
+/*div{
   border: 1px solid black;
-}
+}*/
 .header nav{
   float: right;
-
 }
 .header img{
 margin-left: 30px;
@@ -25,6 +24,10 @@ margin-left: 30px;
   border-bottom: 1px solid black;
   padding-bottom:5px;
 }
+a{
+  text-decoration: underline;
+  color: black;
+}
 nav span{
   display: inline-block;
   width: 60px;
@@ -36,32 +39,39 @@ nav span{
   align-items: center;
 }
 .main_content{
-  border: 1px solid black;
+  /*border: 5px solid green;*/
   display: inline-flex;
   justify-content: space-between;
-
+  width: 100%;
 }
-.column.large{
+.column_large {
   width: 630px;
   display: inline-flex;
   flex-flow: column wrap;
   justify-content: space-between;
+  /*border: 5px solid yellow;*/
+
 }
-.column.medium{
+
+.column_medium{
   width: 300px;
+  /*border: 5px solid blue;*/
 }
-.column.small{
+.column_small{
   width: 240px;
+  /*border: 5px solid brown;*/
 }
+
 .mother_of_three{
   background-image: url("../images/img-story-main.png");
   display: flex;
-  height: 300px;
+  height: 300px
 }
 .cats_control{
   background-image: url("../images/img-story-1.png");
   display: inline-flex;
-  height: 300px;
+  width: 300px;
+  height: 300px
 }
 .earth_spins{
   background-image: url("../images/img-story-2.png");
@@ -93,16 +103,64 @@ color: black;
 .story{
   flex-wrap: wrap;
   display: inline-flex;
-  width: 50%;
+  width: 49%;
   margin: 0px;
   padding: 0px;
-  border: 0px;
+  /*border: 1px solid yellow;*/
 }
 .story_container{
   flex: display-inline;
   width: 630px;
   justify-content: space-between;
-  margin: 0px;
+  margin: 2px;
   padding: 0px;
   border: 0px;
+}
+.bites_container{
+  display: flex;
+  flex-direction: column;
+}
+.bite{
+  margin: 0px;
+  border-bottom: 0.5px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  Color: DimGray;
+  padding: 20px 25px ;
+}
+.bites_container h2{
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-flex;
+}
+.footer{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: auto;
+  background-color: MediumAquamarine;
+  font-size: 12px;
+  margin:auto;
+  font-family: verdana;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+.my-times{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.copyright{
+  display: flex;
+}
+.footer-first-line{
+  display:flex;
+  padding-bottom: 7px;
+}
+.footer a{
+  padding: 10px;
 }
